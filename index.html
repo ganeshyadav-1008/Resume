@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>J. Ganeshchandu | Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(to right, #dfe9f3, #ffffff);
+}
+
+/* Main Container */
+.container {
+    max-width: 850px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 40px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+}
+
+/* Profile Image */
+.profile-img {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #1f618d;
+    transition: 0.3s ease;
+}
+
+.profile-img img:hover {
+    transform: scale(1.05);
+}
+
+/* Name */
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #1f2d3d;
+    letter-spacing: 1px;
+}
+
+/* Contact */
+.contact-top {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+/* Section Headings */
+h2 {
+    color: #1f618d;
+    border-left: 5px solid #1f618d;
+    padding-left: 10px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/* Paragraph */
+p {
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
+/* Lists */
+ul {
+    margin: 10px 0 15px 25px;
+}
+
+ul li {
+    margin-bottom: 6px;
+}
+
+/* Education Items */
+.edu-item {
+    margin-bottom: 12px;
+    padding: 8px;
+    background: #f8f9fa;
+    border-left: 4px solid #1f618d;
+    border-radius: 5px;
+}
+
+/* Address Styling */
+h2 + p {
+    margin-left: 5px;
+}
+
+/* Declaration */
+h2:last-of-type {
+    margin-top: 35px;
+}
+
+/* Signature */
+.signature {
+    margin-top: 50px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 15px;
+}
+/* Navigation Bar */
+.navbar {
+    position: sticky;
+    top: 0;
+    background: #1f618d;
+    padding: 12px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffd700;
+}
+/* Print Friendly */
+@media print {
+    body {
+        background: white;
+    }
+
+    .container {
+        box-shadow: none;
+        margin: 0;
+    }
+}
+    </style>
+</head>
+
+<body>
+<!-- Navigation Bar -->
+<div class="navbar">
+    <a href="#personal">Personal</a>
+    <a href="#objective">Objective</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#address">Address</a>
+    <a href="#declaration">Declaration</a>
+</div>
+<div class="container">
+
+    <!-- Profile Image -->
+    <div class="profile-img">
+        <img src="Resume-01.jpg" alt="Profile Photo">
+    </div>
+
+    <h1>J. Ganeshchandu</h1>
+    <div class="contact-top">
+        Email: ganeshchandu@email.com | Phone: +91 9440532189
+    </div>
+
+    <!-- Personal Details FIRST -->
+    <h2>Personal Details</h2>
+    <p><b>Date of Birth:</b> 10 August 2007</p>
+    <p><b>Gender:</b> Male</p>
+    <p><b>Nationality:</b> Indian</p>
+    <p><b>Languages Known:</b> English, Telugu, Hindi</p>
+
+    <h2>Career Objective</h2>
+    <p>
+        To secure a challenging position in the field of Computer Science and Engineering 
+        where I can apply my technical skills and continuously grow professionally.
+    </p>
+
+    <h2>Educational Qualification</h2>
+    <div class="edu-item">
+        <b>B.Tech (Computer Science and Engineering)</b> – KLH University<br>
+        Year: 2029 | Percentage: 95%
+    </div>
+    <div class="edu-item">
+        <b>Intermediate</b> – Narayana Junior College<br>
+        Year: 2025 | Percentage: 95%
+    </div>
+    <div class="edu-item">
+        <b>SSC</b> – Dilsukhnagar public School<br>
+        Year: 2023 | Percentage: 92%
+    </div>
+
+    <h2>Technical Skills</h2>
+    <ul>
+        <li><b>Programming Languages:</b> C, Python, Java</li>
+        <li><b>Web Technologies:</b> HTML, CSS, Basic JavaScript</li>
+        <li><b>Database:</b> MySQL (Basic)</li>
+        <li><b>Tools:</b> MS Office, Git</li>
+    </ul>
+    <h2>Address</h2>
+    <p>chintalkuntacheckpost,LBnagar,Hyderabad, Telangana, India</p>
+
+    <h2>Declaration</h2>
+    <p>
+        I hereby declare that the above information provided by me is true 
+        and correct to the best of my knowledge and belief.
+    </p>
+
+    <div class="signature">
+        (J. Ganeshchandu)
+    </div>
+
+</div>
+
+</body>
+</html>
